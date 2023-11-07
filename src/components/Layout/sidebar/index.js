@@ -19,6 +19,18 @@ const Sidebar = () => (
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
     </NavLink>
     </nav>
+    <ul>
+      <li>
+        <a target="_blank" rel='norederrer' href='https://www.linkedin.com/in/mackenzie-evangelista'>
+            <iconAwesomeIcon icon={<i class="falinkedin" color="4d4d4de"></i>}
+            </a></li>  
+    </ul>
+      <ul>
+      <li>
+        <a target="_blank" rel='norederrer' href='https://github.com/Erazerlista'>
+            <iconAwesomeIcon icon={<i class="faGithub" color="4d4d4de"></i>}
+            </a></li>  
+    </ul>  
     </div>
 )
 
