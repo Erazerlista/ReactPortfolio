@@ -16,7 +16,6 @@ svg {
     height: auto;
     bottom: 0;
     transform: rotateZ(30deg) !important;
-    /* Removed single quotes around the angle value */
 }
 
 .solid-logo {
@@ -29,7 +28,6 @@ svg {
     width: 100%;
     opacity: 0;
     transform: rotateZ(30deg);
-    /* Removed single quotes around the angle value */
     z-index: 1;
 }
 
