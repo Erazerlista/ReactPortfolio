@@ -1,6 +1,6 @@
 import './index.scss'
 import { useState } from 'react'
-import LogoS from '../../assets/images/logo-s.png'
+import LogoS from '../../assets/images/logo-.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -65,7 +65,7 @@ const Sidebar = () => {
         <FontAwesomeIcon 
           onClick={() => setShowNav(false)}
           icon={faClose}
-          color="#ffd700"
+          color="#FF5C00"
           size="3x"
           className='close-icon' />
       </nav>
@@ -122,7 +122,7 @@ const Sidebar = () => {
       <FontAwesomeIcon 
           onClick={() => setShowNav(true)}
           icon={faBars}
-          color="#ffd700"
+          color="#FF5C00"
           size="3x"
           className='hamburger-icon' />
     </div>
