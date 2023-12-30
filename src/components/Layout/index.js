@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Sidebar from '../Layout/Sidebar'; // Assuming Sidebar is the correct component path
+import Sidebar from '../Layout/Sidebar' // Assuming Sidebar is the correct component path
 import './index.scss';
 
 const Layout = () => {

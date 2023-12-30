@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetterss from '../AnimatedLetter'
-import LogoTitle from '../../../assets/images/biglogo.png'
+import LogoTitle from '../../../assets/images/whitelogo.png'
 import Logo from './Logo'
 import './index.scss'
 
